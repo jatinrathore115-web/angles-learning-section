@@ -1,0 +1,11 @@
+# scratch output from builds and tests (browser profiles, screenshots): never commit
+.tmp/
+
+# browser download leftovers
+*.crdownload
+downloads.htm*
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
