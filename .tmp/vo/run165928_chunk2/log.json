@@ -1,0 +1,290 @@
+[
+ {
+  "t": 1793121859189,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "93",
+  "text": "एंगल थ्री इज अक्रॉस द वर्टेक्स फ्रॉम एंगल वन।",
+  "req": "ies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Angle three is across the vertex from angle one.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121860019,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "94",
+  "text": "ऐंगल फोर एंड ऐंगल वन आर ए लीनियर पेअर, अलौन्ग लाइन सी डी।",
+  "req": "nal accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Angle four and angle one are a linear pair, along line C D.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121863941,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "92",
+  "text": "अपोजिट एंगल्स आर इक्वल: एंगल थ्री इक्वल्स सिक्स्टी सेवन डिग्रीज, एंड एंगल फोर इक्वल्स एंगल टू।",
+  "req": "vernment school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Opposite angles are equal: angle three equals sixty-seven degrees, and angle four equals angle two.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121865430,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "90"
+ },
+ {
+  "t": 1793121866570,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "89"
+ },
+ {
+  "t": 1793121869952,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "85",
+  "text": "विच एंगल इज वर्टिकली ऑपोजिट टू एंगल वन?",
+  "req": "ies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Which angle is vertically opposite to angle one?\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121871968,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "86",
+  "text": "लीनियर पेयर्स टोटल वन हंड्रेड एंड एटी डिग्रीज़: सिक्सटी-सेवन डिग्रीज़ प्लस वन हंड्रेड एंड थर्टीन डिग्रीज़ इक्वल्स वन हंड्रेड एंड एटी डिग्रीज़।",
+  "req": "LY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Linear pairs total one hundred and eighty degrees: sixty-seven degrees plus one hundred and thirteen degrees equals one hundred and eighty degrees.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121873107,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "87"
+ },
+ {
+  "t": 1793121875097,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "84"
+ },
+ {
+  "t": 1793121878833,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "82",
+  "text": "एवरी एंगल इज नाइन्टी डिग्रीज़, सो डोन्ट यूज़ द नंबर।",
+  "req": "egional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Every angle is ninety degrees, so don’t use the number.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121879107,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "81",
+  "text": "लुक अक्रॉस द वर्टेक्स, देन चेक।",
+  "req": "natively applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Look across the vertex, then check.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121881081,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "83"
+ },
+ {
+  "t": 1793121882923,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "78"
+ },
+ {
+  "t": 1793121883589,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "79"
+ },
+ {
+  "t": 1793121887924,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "76",
+  "text": "एंगल टू शेयर्स एन आर्म विद एंगल वन। अपोजिट एंगल्स शेयर ओनली द वर्टेक्स।",
+  "req": "  Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Angle two shares an arm with angle one. Opposite angles share only the vertex.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121888980,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "75",
+  "text": "एंगल फोर शेयर्स एन आर्म विद एंगल वन। अपोजिट एंगल्स शेयर ओनली द वर्टेक्स।",
+  "req": " Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Angle four shares an arm with angle one. Opposite angles share only the vertex.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121889302,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "74",
+  "text": "येस! एंगल थ्री सिट्स डायरेक्टली अक्रॉस फ्रॉम एंगल वन।",
+  "req": " regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Yes! Angle three sits directly across from angle one.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121894099,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "73"
+ },
+ {
+  "t": 1793121894222,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "71"
+ },
+ {
+  "t": 1793121894630,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "72"
+ },
+ {
+  "t": 1793121898805,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "69",
+  "text": "पेअर बी टोटल्स वन हंड्रेड एंड एटी डिग्रीज़ टू। बट इट इज़ नॉट एडजेसेंट।",
+  "req": "  \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Pair B totals one hundred and eighty degrees too. But it is not adjacent.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121902119,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "70",
+  "text": "विच पेयर्स नॉन-कॉमन आर्म्स मस्ट फॉर्म अ लाइन?",
+  "req": "plies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Which pair's non-common arms must form a line?\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121903749,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "65"
+ },
+ {
+  "t": 1793121903856,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "67",
+  "text": "एडजेसेंट, एंड वन हंड्रेड एंड एटी डिग्रीज़। सो द आउटर आर्म्स फॉर्म ए लाइन।",
+  "req": "    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Adjacent, and one hundred and eighty degrees. So the outer arms form a line.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121906482,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "63",
+  "text": "यू कैन फाइंड एंगल्स विदाउट मेजरिंग देम।",
+  "req": " applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: You can find angles without measuring them.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121906994,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "64"
+ },
+ {
+  "t": 1793121909630,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "60",
+  "text": "टैप ईच रिलेशनशिप टू रिप्ले इट।",
+  "req": "natively applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Tap each relationship to replay it.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121909878,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "62"
+ },
+ {
+  "t": 1793121910469,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "61"
+ },
+ {
+  "t": 1793121913163,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "59"
+ },
+ {
+  "t": 1793121913388,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "58",
+  "text": "वर्टिकली अपोजिट एंगल्स आर इक्वल।",
+  "req": "tively applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Vertically opposite angles are equal.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121915673,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "57",
+  "text": "अडजेसेंट, प्लस वन हंड्रेड एंड एटी डिग्रीज़, मीन्स द आउटर आर्म्स फॉर्म ए लाइन।",
+  "req": "Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Adjacent, plus one hundred and eighty degrees, means the outer arms form a line.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121916274,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "55"
+ },
+ {
+  "t": 1793121916277,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "56",
+  "text": "यू बिल्ट इट, एक्सप्लोर्ड इट, एंड प्रूव्ड इट।",
+  "req": "ly applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: You built it, explored it, and proved it.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793121920571,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "52"
+ },
+ {
+  "t": 1793121920974,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "53"
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "t": 1793117526956,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "97",
+  "text": "वॉट हैपन्स इफ़ वी कीप टर्निंग?",
+  "req": "ne natively applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: What happens if we keep turning?\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793117527062,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "96",
+  "text": "कीप टर्निंग, पास्ट अ स्ट्रेट एंगल।",
+  "req": "atively applies a regional accent.\n    \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Keep turning, past a straight angle.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793117527476,
+  "kind": "script",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3-flash-preview:generateContent",
+  "remaining": "98",
+  "text": "येस! मोर दैन नाइन्टी डिग्रीज़, लेस दैन वन हंड्रेड एंड एटी डिग्रीज़।",
+  "req": "   \n    Target Audience: Government school students in India.\n    Output ONLY the final processed text in hi's native script. No markdown, no explanations.\n    \n    Input Text: Yes! More than ninety degrees, less than one hundred and eighty degrees.\n    Source Language: hi\n    Target Language: hi\n  "
+ },
+ {
+  "t": 1793117535814,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "94"
+ },
+ {
+  "t": 1793117539513,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "95"
+ },
+ {
+  "t": 1793117544609,
+  "kind": "tts",
+  "status": 200,
+  "path": "/v1beta/models/gemini-3.1-flash-tts-preview:generateContent",
+  "remaining": "93"
+ }
+]

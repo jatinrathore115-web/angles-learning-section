@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angles Lab · Grade 9</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;0,600;0,700;0,800;1,600;1,700;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="viewport">
+    <div id="stage" data-state="ENTER">
+      <!-- Background environment -->
+      <div class="bg">
+        <div class="bg-glow"></div>
+        <div class="bg-grid"></div>
+        <div class="bg-floor"><div class="bg-floor-grid"></div></div>
+        <div class="bg-focus" id="bgFocus"></div>
+        <div class="bg-motes" id="bgMotes"></div>
+        <div class="bg-vignette"></div>
+      </div>
+
+      <!-- Neon frame -->
+      <svg class="frame" viewBox="0 0 1600 900" aria-hidden="true">
+        <defs>
+          <linearGradient id="fTop" x1="0" x2="1">
+            <stop offset="0" stop-color="#ff2fd8" stop-opacity="0"/>
+            <stop offset=".5" stop-color="#ff7af0"/>
+            <stop offset="1" stop-color="#ff2fd8" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <rect x="28" y="30" width="1544" height="840" rx="26" fill="none" stroke="#1f5bd8" stroke-opacity=".55" stroke-width="2"/>
+        <g class="frame-corners" fill="none" stroke-linecap="round">
+          <path class="fc-c" d="M22 140 V60 Q22 30 52 30 H130"/>
+          <path class="fc-m" d="M38 132 V70 Q38 46 62 46 H120"/>
+          <path class="fc-c" d="M1578 140 V60 Q1578 30 1548 30 H1470"/>
+          <path class="fc-m" d="M1562 132 V70 Q1562 46 1538 46 H1480"/>
+          <path class="fc-c" d="M22 760 V840 Q22 870 52 870 H130"/>
+          <path class="fc-m" d="M38 768 V830 Q38 854 62 854 H120"/>
+          <path class="fc-c" d="M1578 760 V840 Q1578 870 1548 870 H1470"/>
+          <path class="fc-m" d="M1562 768 V830 Q1562 854 1538 854 H1480"/>
+        </g>
+        <rect x="560" y="28" width="480" height="4" rx="2" fill="url(#fTop)"/>
+        <rect x="560" y="868" width="480" height="4" rx="2" fill="url(#fTop)"/>
+      </svg>
+
+      <!-- Geometry layer (SVG, stage coordinates) -->
+      <svg id="geo" viewBox="0 0 1600 900" aria-label="Geometry workspace"></svg>
+
+      <!-- Header -->
+      <header class="hud">
+        <button class="progress" id="progress" title="Open lesson map" aria-label="Open lesson map">
+          <span class="progress-num"><b id="pNum">01</b> / <span id="pTot">29</span></span>
+          <span class="progress-topic" id="pTopic">POINTS &amp; RAYS</span>
+        </button>
+        <div class="progress-bar"><i id="pBar"></i></div>
+        <h1 class="heading" id="heading"></h1>
+      </header>
+
+
+      <!-- HTML overlay in stage coordinates (narration, tokens, slots...) -->
+      <div id="overlay"></div>
+
+      <!-- Context panel -->
+      <aside class="panel" id="panel" aria-live="polite">
+        <div class="panel-notch"></div>
+        <div class="panel-body" id="panelBody"></div>
+      </aside>
+
+      <!-- Screen navigation: same place on every screen, top right -->
+      <nav class="topnav" aria-label="Screen navigation">
+        <button class="btn btn-back" id="bBack" aria-label="Previous screen">
+          <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>BACK
+        </button>
+        <button class="btn btn-next" id="bNext" disabled aria-label="Next screen">NEXT
+          <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </nav>
+
+      <!-- Answer action: Check sits beside the work, bottom right -->
+      <div class="dock">
+        <button class="btn btn-check hidden" id="bCheck" disabled>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M6 12.5l4 4 8-9"/></svg></span>CHECK
+        </button>
+      </div>
+
+      <!-- Chapter transition -->
+      <div class="chapter" id="chapter"><div class="chapter-k" id="chapterK"></div><div class="chapter-t" id="chapterT"></div><i class="chapter-line"></i></div>
+
+      <!-- Lesson map -->
+      <div class="map" id="map" hidden>
+        <div class="map-card">
+          <div class="map-head"><b>LESSON MAP</b><button class="btn btn-ghost sm" id="mapClose" aria-label="Close map">✕</button></div>
+          <div class="map-grid" id="mapGrid"></div>
+        </div>
+      </div>
+
+      <!-- Start screen -->
+      <div class="start" id="start">
+        <div class="start-art" aria-hidden="true">
+          <img class="start-thumb" src="assets/start/thumbnail.jpg" alt="" draggable="false">
+          <i class="start-sheen"></i>
+          <div class="start-motes" id="startMotes"></div>
+        </div>
+        <h1 class="sr-only">Amazing Angles — Grade 9 mathematics</h1>
+        <div class="start-done" role="status">
+          <b>Lesson complete</b>
+          <span>You built, explored and proved the key angle relationships.</span>
+        </div>
+        <i class="start-pad" aria-hidden="true"></i>
+        <button class="start-btn" id="bStart" aria-label="Start the angles lesson">
+          <i class="start-ripple" aria-hidden="true"></i>
+          <span class="start-face"><img src="assets/start/start-button.webp" alt="" draggable="false"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/core/math.js"></script>
+  <script src="js/core/motion.js"></script>
+  <script src="js/core/audio.js"></script>
+  <script src="js/vo_lines.js"></script>
+  <script src="js/core/voice.js"></script>
+  <script src="js/core/scene.js"></script>
+  <script src="js/core/mini.js"></script>
+  <script src="js/core/ui.js"></script>
+  <script src="js/core/engine.js"></script>
+  <script src="js/screens/common.js"></script>
+  <script src="js/screens/ch1-building.js"></script>
+  <script src="js/screens/ch2-relationships.js"></script>
+  <script src="js/screens/ch3-linear-pairs.js"></script>
+  <script src="js/screens/ch4-intersecting.js"></script>
+  <script src="js/screens/ch5-proof.js"></script>
+  <script src="js/screens/ch6-apply.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
